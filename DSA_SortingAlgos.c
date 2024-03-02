@@ -47,7 +47,7 @@ void bubble_sort(int* T, int sizeT)
 void insertion_sort(int* T, int sizeT)
 {
                 int temp, i, j;
-                for(i=0;i<=sizeT-1;i++)
+                for(i=1;i<=sizeT-1;i++)
                 {
                                 temp = T[i];
                                 j=i;
